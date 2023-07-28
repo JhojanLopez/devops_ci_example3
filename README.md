@@ -23,3 +23,4 @@ git merge origin/feature/addtest
 
 ## Notas
 - Para tomar el flujo se debe hacer el push del cambio y activar manualmente el pipeline en jenkins.
+- Este ejemplo ha sido integrado con slack para el envio de notificaciones para ello se debe instalar el plugin en jenkins y seguir pasos dados por slack en la pagina web.
