@@ -1,7 +1,6 @@
 # Descripción
 
-Este proyecto es usado como ejemplo de ci donde el proceso sea completamente automatizado (notificaciones,ejecucion automatica, pruebas automaticas), donde una vez
-se valide la integracion correctamente se haga el merge en el repositorio remoto eliminando la subrama distinta a la main.
+Este proyecto es usado como ejemplo de ci donde una vez se realice la integracion correctamente se haga el merge en el repositorio remoto en la rama main.
 
 ## Configuracion de pipeline
 1. Configurar el pipeline de tal modo que no sea automatico (sin disparadores)
@@ -21,3 +20,6 @@ git merge origin/feature/addtest
 4. Agregar ejecuciones finales en la seccion Acciones para ejecutar después., para que se pushee el cambio del merge una vez el build con las pruebas fue ejecutada correctamente
 
 ![config3.png](assets/config3.png)
+
+## Notas
+- Para tomar el flujo se debe hacer el push del cambio y activar manualmente el pipeline en jenkins.
